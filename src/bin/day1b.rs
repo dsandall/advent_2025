@@ -1,7 +1,6 @@
 #![feature(pattern)]
 use core::panic;
 use std::io::{self, BufRead};
-use std::iter;
 
 const START: i32 = 50;
 

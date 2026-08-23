@@ -3,6 +3,8 @@ use core::panic;
 use std::io::{self, BufRead};
 use std::iter;
 
+// TODO:
+
 fn exclusive_scan(v: &[i32]) -> Vec<i32> {
     let mut sum = 50;
     v.iter()
